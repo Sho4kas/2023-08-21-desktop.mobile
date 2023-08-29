@@ -1,0 +1,52 @@
+*, *::before, *::after {box-sizing: border-box;}
+
+ .main-page {max-width: 1440px;
+    margin-right: auto;  margin-left: auto;  padding-right: 30px;  padding-left: 30px;}
+
+ .hero {background-image: url(bg-hero-desktop.svg);  background-color: hsl(193, 100%, 96%);}
+ button {background-color: #ffffff; padding: 15px 50px; border-radius: 30px; font-weight: 700; font-size: 16px;}
+
+ .virsus {display: flex; flex-wrap: wrap; justify-content: space-between; padding: 20px 90px;}
+ .hero-section {display: flex; flex-wrap: wrap; font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif;}
+ .hero-text {width: 50%; display: flex; flex-direction: column; flex-wrap: wrap; align-items: flex-start; gap: 20px; padding: 200px 185px 100px 100px;}
+ .hero-img img {width: 650px; height: 500px; padding-top: 50px;}
+ h1 {margin: 0cm; font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif; font-weight: bold;}
+ h2 {margin: 0cm; font-family: 'Bai Jamjuree', sans-serif;
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Poppins', sans-serif; font-weight: bold;}
+    p {font-family: 'Bai Jamjuree', sans-serif;
+        font-family: 'Hanken Grotesk', sans-serif;
+        font-family: 'Poppins', sans-serif; color:hsl(208, 11%, 55%);}
+
+
+    .color-button {background-color:hsl(322, 100%, 66%); padding: 25px 100px; color: #ffffff; border: 0cm;}
+
+    .main-information {padding: 100px 80px 150px; display: flex; flex-direction: column; gap: 40px; align-items: center; position: relative;}
+    .grow {display: flex; flex-wrap: wrap; border-radius: 20px; box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);}
+    .grow-text {width: 50%; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; padding: 0px 120px;}
+    .grow-img img {width: 600px;  height: 500px;  display: block;  object-fit: cover; padding: 50px 80px;}
+
+
+    .flowing {display: flex; flex-wrap: wrap; border-radius: 20px; box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);}
+    .flowing-img img {width: 600px;  height: 500px;  display: block;  object-fit: cover; padding: 50px 80px;}
+    .flowing-text {width: 50%; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; padding: 0px 120px;}
+
+    .users {display: flex; flex-wrap: wrap; border-radius: 20px; box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3); margin-bottom: 80px;}
+    .users-text {width: 50%; display: flex; flex-direction: column; flex-wrap: wrap; justify-content: center; padding: 0px 120px;}
+    .users-img img {width: 600px;  height: 500px;  display: block;  object-fit: cover; padding: 50px 80px;}
+
+    footer {background-color:hsl(192, 100%, 9%); color:hsl(208, 11%, 55%); padding: 70px;}
+
+    .down {display: flex; flex-wrap: wrap; gap: 30px;}
+    .footer-1, .footer-2, .footer-3, .footer-4 {display: flex; flex-wrap: wrap; flex-direction: column; width: 23%; padding: 10px; gap: 20px;}
+    
+
+    .ready {border-radius: 20px; box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3); display: flex; flex-direction: column; 
+        align-items: center; padding: 60px; width: 700px; position: absolute; bottom: -80px; background-color: #fff; gap: 20px;}
+        body {display: flex; justify-content: center; margin: 0cm;}
+    
+    footer ul {display: flex; flex-wrap: wrap; gap: 20px;}   
